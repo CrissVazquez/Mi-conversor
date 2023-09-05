@@ -2,17 +2,27 @@ package Enums;
 
 public enum TipoDeConversion {
 	
-     //Divisas	
+     //Divisas
+	 //De pesos mexicanos a divisa extranjera
 	 MXN_PARA_DOLAR("De pesos MXN a Dólar"),
 	 MXN_PARA_EURO("De pesos MXN a Euro"),
 	 MXN_PARA_LIBRA_ESTERLINA("De pesos MXN a Libra Esterlina"),
 	 MXN_PARA_PESO_ARGENTINO ("De pesos MXN a Peso Argentino"),
 	 MXN_PARA_PESO_CHILENO("De pesos MXN a Peso Chileno"),
+	 MXN_PARA_FRANCO_SUIZO("De pesos MXN a Franco Suizo"),
+	 MXN_PARA_YEN_JAPONES("De pesos MXN a Yen Japonés"),
+	 MXN_PARA_YUAN_CHINO("De pesos MXN a Yuan Chino"),
+	 
+	 
+	 //De divisa extranjera para peso mexicano
 	 DOLAR_PARA_MXN("De Dólar a pesos MXN"),
 	 EURO_PARA_MXN("De Euro a pesos MXN"),
 	 LIBRA_ESTERLINA_PARA_MXN("De Libra Esterlina pesos MXN"),
 	 PESO_ARGENTINO_PARA_MXN("De Peso Argentino a pesos MXN"),
 	 PESO_CHILENO_PARA_MXN("De Peso Chileno a pesos MXN"),
+	 FRANCO_SUIZO_PARA_MXN("De Franco Suizo pesos MXN"),
+	 YEN_JAPONES_PARA_MXN("De Yen Japones a pesos MXN"),
+	 YUAN_CHINO_PARA_MXN("De Yuan Chino a pesos MXN"),
 
 	 //Temperatura
 	 CELSIUS_PARA_FAHRENHEIT("Celsius a Fahrenheit"),

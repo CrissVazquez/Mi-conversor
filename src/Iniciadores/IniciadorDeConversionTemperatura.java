@@ -1,10 +1,10 @@
 package Iniciadores;
 
-import Convertidores.ConvertidorDeTemperatura1;
+import Convertidores.ConvertidorDeTemperatura;
 
 public class IniciadorDeConversionTemperatura {
 
-    ConvertidorDeTemperatura1 convertidorDeTemperatura = new ConvertidorDeTemperatura1();
+    ConvertidorDeTemperatura convertidorDeTemperatura = new ConvertidorDeTemperatura();
     private static final String CELSIUS_PARA_FAHRENHEIT = "Celsius a Fahrenheit";
     private static final String CELSIUS_PARA_KELVIN = "Celsius a Kelvin";
     private static final String KELVIN_PARA_FAHRENHEIT = "Kelvin a Fahrenheit";

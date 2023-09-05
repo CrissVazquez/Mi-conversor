@@ -67,11 +67,11 @@ public class ConvertidorDistanciasISParaES {
 		return valorConvertido;
 	}
 	public double KilometrosParaPies(double valor) {
-		valorConvertido = valor / 0.00030;
+		valorConvertido = valor / 0.0003048;
 		return valorConvertido;
 	}
 	public double KilometrosParaYarda(double valor) {
-		valorConvertido = valor / 0.00091;
+		valorConvertido = valor / 0.000914;
 		return valorConvertido;
 	}
 	public double KilometrosParaMilla(double valor) {

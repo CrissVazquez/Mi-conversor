@@ -24,6 +24,7 @@ public class IniciadorDeConversionDistanciaES {
 	private static final String YARDA_PARA_PULGADA = "Yarda a Pulgada";
 	private static final String PIES_PARA_PULGADA = "Pies a pulgada";
 	
+	
 	public double operarConversionES(String operacionDeDistancia, double valorInicial) throws Exception {
 		switch (operacionDeDistancia) {
 		//De menor a mayor

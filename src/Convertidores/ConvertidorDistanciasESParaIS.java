@@ -14,21 +14,21 @@ public class ConvertidorDistanciasESParaIS {
 		return valorConvertido;
 	}
 	public double PulgadaParaCentimetros(double valor) {
-		valorConvertido = valor * 304.8 ;
+		valorConvertido = valor * 2.54 ;
 		return valorConvertido;
 	}
 	public double PulgadaParaMetros(double valor) {
-		valorConvertido = valor * 914.4;
+		valorConvertido = valor * 0.0254;
 		return valorConvertido;
 	}
 	public double PulgadaParaKilometros(double valor) {
-		valorConvertido = valor * 1609344;
+		valorConvertido = valor * 0.0000254;
 		return valorConvertido;
 	}
 	
 	//Pies:
 	public double PiesParaMilimetros(double valor) {
-		valorConvertido = valor * 2.54;
+		valorConvertido = valor * 304.8;
 		return valorConvertido;
 	}
 	public double PiesParaCentimetros(double valor) {
@@ -36,21 +36,21 @@ public class ConvertidorDistanciasESParaIS {
 		return valorConvertido;
 	}
 	public double PiesParaMetros(double valor) {
-		valorConvertido = valor * 91.44;
+		valorConvertido = valor * 0.3048;
 		return valorConvertido;
 	}
 	public double PiesParaKilometros(double valor) {
-		valorConvertido = valor * 160934.4;
+		valorConvertido = valor * 0.0003048;
 		return valorConvertido;
 	}
 	
 	//Yardas:
 	public double YardasParaMilimetros(double valor) {
-		valorConvertido = valor * 0.0254;
+		valorConvertido = valor * 914.4;
 		return valorConvertido;
 	}
 	public double YardasParaCentimetro(double valor) {
-		valorConvertido = valor * 0.3048;
+		valorConvertido = valor * 91.44;
 		return valorConvertido;
 	}
 	public double YardasParaMetros(double valor) {
@@ -58,22 +58,22 @@ public class ConvertidorDistanciasESParaIS {
 		return valorConvertido;
 	}
 	public double YardasParaKilometros(double valor) {
-		valorConvertido = valor *1609.34;
+		valorConvertido = valor * 0.000914;
 		return valorConvertido;
 	}
 	
 	
 	//Millas:
 	public double MillasParaMilimetros(double valor) {
-		valorConvertido = valor / 39370.078;
+		valorConvertido = valor * 1609344;
 		return valorConvertido;
 	}
 	public double MillasParaCentimetros(double valor) {
-		valorConvertido = valor * 0.00030;
+		valorConvertido = valor * 160934.4;
 		return valorConvertido;
 	}
 	public double MillasParaMetros(double valor) {
-		valorConvertido = valor * 0.00091;
+		valorConvertido = valor * 1609.344;
 		return valorConvertido;
 	}
 	public double MillasParaKilometros(double valor) {
