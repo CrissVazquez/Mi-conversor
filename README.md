@@ -52,7 +52,7 @@ Al dar click en aceptar el convertidor de temperatura podremos escoger converiso
 
 Al escoger este tipo de conversiones podremos deplegar las siguientes opciones:
 
-- **De Sistema Internacional a Internaciona: ** El cual convierte unidades de medida dentro del sistema internacional.
+- **De Sistema Internacional a Internaciona:** El cual convierte unidades de medida dentro del sistema internacional.
 
 - **De Sistema Ingles a Ingles:** El cual convierte unidades de medida dentro del sistema inglés.
 
